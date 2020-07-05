@@ -18,7 +18,8 @@
     "start-server-and-test": "^1.11.0"
   },
   "files": [
-    "src",
+    "app.js",
+    "socketMiddleware.js",
     "images"
   ],
   "homepage": "https://github.com/assertedio/socketio-uptime#readme",
