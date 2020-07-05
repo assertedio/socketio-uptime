@@ -37,6 +37,8 @@ describe('socketio api tests', () => {
 
     client.emit('add user', 'new-user');
 
+    // Admittedly a bit gross to use sleep here, but just wanted something simple.
+    // The less brittle approach would be to block on a promise until the stubs are called.
     await sleep(100);
 
     expect(login.args).to.eql([[{ numUsers: 2 }]]);
