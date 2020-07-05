@@ -1,7 +1,7 @@
 {
   "name": "@asserted/socketio-uptime",
   "description": "Test Socket IO uptime with Asserted",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Eric Hacke",
   "bugs": {
     "url": "https://github.com/assertedio/socketio-uptime/issues"
