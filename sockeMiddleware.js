@@ -1,8 +1,8 @@
 const attach = (io) => {
-  var numUsers = 0;
+  let numUsers = 0;
 
   io.on('connection', (socket) => {
-    var addedUser = false;
+    let addedUser = false;
 
     // when the client emits 'new message', this listens and executes
     socket.on('new message', (data) => {
