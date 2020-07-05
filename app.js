@@ -2,7 +2,7 @@ const bodyParser = require('body-parser');
 const express = require('express');
 const http = require('http');
 const socketio = require('socket.io');
-const attach = require('socketMiddleware');
+const attach = require('./socketMiddleware');
 
 const app = express();
 const port = 3000;
