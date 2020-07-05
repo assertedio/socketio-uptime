@@ -1,0 +1,20 @@
+{
+  "id": "rt-iw0jQU9Iv",
+  "projectId": "p-1HLb80s9Z",
+  "name": "example",
+  "description": "",
+  "interval": {
+    "unit": "min",
+    "value": 5
+  },
+  "dependencies": "custom",
+  "mocha": {
+    "files": [
+      "**/*.asrtd.js"
+    ],
+    "ignore": [],
+    "bail": false,
+    "ui": "bdd"
+  },
+  "timeoutSec": 5
+}
